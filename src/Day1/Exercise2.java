@@ -3,7 +3,10 @@
 //Each thread should print the numbers from 1 to 100.
 //Have the threads print an identifier with each number, so you can see which thread prints what (use the iteration variable from the outer loop where the thread is created).
 //a) describe the output. Is it what you expected?
+//  The output shows how the threads are created and ther run method is executed accordingly to the schedulers random system.
+
 //b) If the threads do not interleave, can you make them, by making the threads sleep for a short period of time? (think milliseconds).
+//They interleave.
 
 package Day1;
 
